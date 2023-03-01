@@ -10,7 +10,7 @@ const chatCollection = 'chats'; //collection to store all chats
 const userCollection = 'onlineUsers'; //collection to maintain list of currently online users
 
 const port = 5000;
-const database = 'mongodb://localhost:27017/';
+const database = 'CONNECTION_STRING';
 const app = express();
 
 const server=http.createServer(app);
